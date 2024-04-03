@@ -1,0 +1,9 @@
+grafana:
+  service:
+    enabled: true
+    type: LoadBalancer
+    nodePort: 80
+  persistence:
+    enabled: true
+    size: 10Gi
+    storageClassName: grafana-pvc

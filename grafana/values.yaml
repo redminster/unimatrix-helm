@@ -2,9 +2,8 @@ grafana:
   service:
     enabled: true
     type: LoadBalancer
-    ports:
-      - port: 80
-        targetPort: 3000
+    port: 80
+    targetPort: 3000
   persistence:
     enabled: true
     size: 10Gi

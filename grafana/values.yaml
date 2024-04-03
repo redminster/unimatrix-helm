@@ -4,4 +4,3 @@ grafana:
     #type: NodePort
     #nodePort: 30180
     type: LoadBalancer
-    port: 80

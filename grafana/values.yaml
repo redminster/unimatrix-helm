@@ -1,8 +1,10 @@
 grafana:
   service:
     enabled: true
-    type: LoadBalancer
-    port: 80
+    type: NodePort
+    nodePort: 30180
+    #type: LoadBalancer
+    #port: 80
   persistence:
     enabled: true
     size: 10Gi
